@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dc16164a-ee13-4a25-888b-0e1fa0f83fdc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2so.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Genetic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVO.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVO_ENN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PSO.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PSO_ENN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results (1).xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Plots/Table1_Stack1_ENN_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Plots/Table1_Stack1_ENN_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Plots/Table1_Stack1_LSTM_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Plots/Table1_Stack1_LSTM_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Plots/Table2_Stack2_ENN_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Plots/Table2_Stack2_ENN_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Plots/Table2_Stack2_LSTM_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Plots/Table2_Stack2_LSTM_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Plots/Table3_Stack1_ENN_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Plots/Table3_Stack1_ENN_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Plots/Table3_Stack1_LSTM_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Plots/Table3_Stack1_LSTM_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Plots/Table4_Stack2_ENN_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Plots/Table4_Stack2_ENN_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Plots/Table4_Stack2_LSTM_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Plots/Table4_Stack2_LSTM_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table1_Stack1_NO2_ENN_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table1_Stack1_NO2_ENN_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table1_Stack1_NO2_LSTM_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table1_Stack1_NO2_LSTM_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table1_Stack1_SO2_ENN_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table1_Stack1_SO2_ENN_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table1_Stack1_SO2_LSTM_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table1_Stack1_SO2_LSTM_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table2_Stack2_NO2_ENN_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table2_Stack2_NO2_ENN_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table2_Stack2_NO2_LSTM_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table2_Stack2_NO2_LSTM_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table2_Stack2_SO2_ENN_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table2_Stack2_SO2_ENN_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table2_Stack2_SO2_LSTM_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table2_Stack2_SO2_LSTM_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table3_Stack1_NO2_ENN_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table3_Stack1_NO2_ENN_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table3_Stack1_NO2_LSTM_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table3_Stack1_NO2_LSTM_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table3_Stack1_SO2_ENN_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table3_Stack1_SO2_ENN_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table3_Stack1_SO2_LSTM_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table3_Stack1_SO2_LSTM_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table4_Stack2_NO2_ENN_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table4_Stack2_NO2_ENN_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table4_Stack2_NO2_LSTM_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table4_Stack2_NO2_LSTM_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table4_Stack2_SO2_ENN_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table4_Stack2_SO2_ENN_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table4_Stack2_SO2_LSTM_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Results/Table4_Stack2_SO2_LSTM_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Scatters/Table1_Stack1_ENN_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Scatters/Table1_Stack1_ENN_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Scatters/Table1_Stack1_LSTM_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Scatters/Table1_Stack1_LSTM_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Scatters/Table2_Stack2_ENN_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Scatters/Table2_Stack2_ENN_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Scatters/Table2_Stack2_LSTM_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Scatters/Table2_Stack2_LSTM_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Scatters/Table3_Stack1_ENN_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Scatters/Table3_Stack1_ENN_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Scatters/Table3_Stack1_LSTM_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Scatters/Table3_Stack1_LSTM_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Scatters/Table4_Stack2_ENN_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Scatters/Table4_Stack2_ENN_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Scatters/Table4_Stack2_LSTM_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results ENN, LSTM, PSO, MVO/Scatters/Table4_Stack2_LSTM_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/Results (1).xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/Stack1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/Stack2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/Table1_Stack1_NO2_LSTM_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/Table1_Stack1_NO2_LSTM_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/Table1_Stack1_SO2_LSTM_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/Table1_Stack1_SO2_LSTM_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/Table2_Stack2_NO2_LSTM_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/Table2_Stack2_NO2_LSTM_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/Table2_Stack2_SO2_LSTM_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/Table2_Stack2_SO2_LSTM_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/Table3_Stack1_NO2_LSTM_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/Table3_Stack1_NO2_LSTM_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/Table3_Stack1_SO2_LSTM_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/Table3_Stack1_SO2_LSTM_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/Table4_Stack2_NO2_LSTM_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/Table4_Stack2_NO2_LSTM_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/Table4_Stack2_SO2_LSTM_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/Table4_Stack2_SO2_LSTM_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/draws/Table1_Stack1_ENN_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/draws/Table1_Stack1_ENN_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/draws/Table1_Stack1_LSTM_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/draws/Table1_Stack1_LSTM_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/draws/Table2_Stack2_ENN_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/draws/Table2_Stack2_ENN_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/draws/Table2_Stack2_LSTM_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/draws/Table2_Stack2_LSTM_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/draws/Table3_Stack1_ENN_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/draws/Table3_Stack1_ENN_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/draws/Table3_Stack1_LSTM_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/draws/Table3_Stack1_LSTM_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/draws/Table4_Stack2_ENN_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/draws/Table4_Stack2_ENN_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/draws/Table4_Stack2_LSTM_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results/draws/Table4_Stack2_LSTM_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results_00/Results.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results_00/STACK 1 (1).xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results_00/STACK 2 (1).xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results_00/Stack1-Result.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results_00/Stack1-scatter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results_00/Stack1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results_00/Stack2-NO2-agust.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results_00/Stack2-NO2-may.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results_00/Stack2-NO2-september.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results_00/Stack2-Result.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results_00/Stack2-scatter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Results_00/Stack2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Table1_Stack1_NO2_ENN_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Table1_Stack1_NO2_ENN_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Table1_Stack1_SO2_ENN_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Table1_Stack1_SO2_ENN_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Table2_Stack2_NO2_ENN_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Table2_Stack2_NO2_ENN_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Table2_Stack2_SO2_ENN_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Table2_Stack2_SO2_ENN_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Table3_Stack1_NO2_ENN_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Table3_Stack1_NO2_ENN_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Table3_Stack1_SO2_ENN_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Table3_Stack1_SO2_ENN_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Table4_Stack2_NO2_ENN_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Table4_Stack2_NO2_ENN_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Table4_Stack2_SO2_ENN_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Table4_Stack2_SO2_ENN_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tools2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drawplots.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/draws/Table1_Stack1_ENN_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/draws/Table1_Stack1_ENN_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/draws/Table1_Stack1_LSTM_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/draws/Table1_Stack1_LSTM_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/draws/Table2_Stack2_ENN_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/draws/Table2_Stack2_ENN_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/draws/Table2_Stack2_LSTM_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/draws/Table2_Stack2_LSTM_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/draws/Table3_Stack1_ENN_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/draws/Table3_Stack1_ENN_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/draws/Table3_Stack1_LSTM_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/draws/Table3_Stack1_LSTM_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/draws/Table4_Stack2_ENN_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/draws/Table4_Stack2_ENN_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/draws/Table4_Stack2_LSTM_MVO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/draws/Table4_Stack2_LSTM_PSO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main3/DJIA.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/make_loss_figs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/make_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/Stack1-NO2-agust.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/Stack1-NO2-may.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/Stack1-NO2-september.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/Stack1-SO2-agust.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/Stack1-SO2-may.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/Stack1-SO2-september.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/Stack2-SO2-agust.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/Stack2-SO2-may.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plots/Stack2-SO2-september.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/Table1_Stack1_NO2_LSTM_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/Table1_Stack1_NO2_LSTM_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/Table1_Stack1_SO2_LSTM_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/Table1_Stack1_SO2_LSTM_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/Table2_Stack2_NO2_LSTM_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/Table2_Stack2_NO2_LSTM_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/Table2_Stack2_SO2_LSTM_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/Table2_Stack2_SO2_LSTM_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/Table3_Stack1_NO2_LSTM_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/Table3_Stack1_NO2_LSTM_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/Table3_Stack1_SO2_LSTM_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/Table3_Stack1_SO2_LSTM_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/Table4_Stack2_NO2_LSTM_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/Table4_Stack2_NO2_LSTM_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/Table4_Stack2_SO2_LSTM_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/Table4_Stack2_SO2_LSTM_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp2/Table1_Stack1_NO2_ENN_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp2/Table1_Stack1_NO2_ENN_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp2/Table1_Stack1_SO2_ENN_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp2/Table1_Stack1_SO2_ENN_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp2/Table2_Stack2_NO2_ENN_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp2/Table2_Stack2_NO2_ENN_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp2/Table2_Stack2_SO2_ENN_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp2/Table2_Stack2_SO2_ENN_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp2/Table3_Stack1_NO2_ENN_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp2/Table3_Stack1_NO2_ENN_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp2/Table3_Stack1_SO2_ENN_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp2/Table3_Stack1_SO2_ENN_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp2/Table4_Stack2_NO2_ENN_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp2/Table4_Stack2_NO2_ENN_PSO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp2/Table4_Stack2_SO2_ENN_MVO.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/tmp2/Table4_Stack2_SO2_ENN_PSO.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Bitcoin Forcasting.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Forecasting.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/DNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/bitcoin_forcast_dnn_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/bitcoin_forcast_lstm_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plot00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plot01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Bitcoin Forcasting$DNN.coverage" NAME="DNN Coverage Results" MODIFIED="1541237990622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bitcoin Forcasting$main.coverage" NAME="main Coverage Results" MODIFIED="1544691800212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bitcoin Forcasting$tools.coverage" NAME="tools Coverage Results" MODIFIED="1541188848358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectId" id="1i3AwocRR0gEdP1eCgnE8cHSJs1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Forcasting" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.drawplots">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Bitcoin Forcasting" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Bitcoin Forcasting" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Bitcoin Forcasting" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Bitcoin Forcasting" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration name="DNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Forecasting" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DNN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tools2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Forecasting" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tools2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Forecasting" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="drawplots" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Forecasting" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drawplots.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Forecasting" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tools" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Forecasting" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="Forecasting" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="Forecasting" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="Forecasting" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="Forecasting" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="Forecasting" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="Forecasting" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="Forecasting" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.DNN" />
+      <item itemvalue="Python.Tools2" />
+      <item itemvalue="Python.drawplots" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.tools" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.drawplots" />
+        <item itemvalue="Python.Tools2" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.DNN" />
+        <item itemvalue="Python.tools" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc16164a-ee13-4a25-888b-0e1fa0f83fdc" name="Default" comment="" />
+      <created>1541098284966</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541098284966</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601126762458">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601126762458" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602569802842">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602569802842" />
+    <state width="1899" height="350" key="GridCell.Tab.0.bottom" timestamp="1602913508857">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602913508857" />
+    <state width="1899" height="350" key="GridCell.Tab.0.center" timestamp="1602913508856">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="350" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602913508856" />
+    <state width="1899" height="350" key="GridCell.Tab.0.left" timestamp="1602913508856">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="350" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602913508856" />
+    <state width="1899" height="350" key="GridCell.Tab.0.right" timestamp="1602913508856">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="350" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602913508856" />
+    <state width="1899" height="350" key="GridCell.Tab.1.bottom" timestamp="1602913508857">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="350" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602913508857" />
+    <state width="1899" height="350" key="GridCell.Tab.1.center" timestamp="1602913508857">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="350" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602913508857" />
+    <state width="1899" height="350" key="GridCell.Tab.1.left" timestamp="1602913508857">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="350" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602913508857" />
+    <state width="1899" height="350" key="GridCell.Tab.1.right" timestamp="1602913508857">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="350" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602913508857" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602524539035">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602524539035" />
+  </component>
+</project>
